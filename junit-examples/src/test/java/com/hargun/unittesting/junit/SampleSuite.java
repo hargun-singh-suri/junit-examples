@@ -1,7 +1,7 @@
 /**
  * 
  */
-package com.hargun.junit.lecture1;
+package com.hargun.unittesting.junit;
 
 import org.junit.runner.RunWith;
 import org.junit.runners.Suite;

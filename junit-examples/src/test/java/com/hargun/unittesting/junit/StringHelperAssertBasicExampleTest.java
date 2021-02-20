@@ -1,4 +1,4 @@
-package com.hargun.junit.lecture1;
+package com.hargun.unittesting.junit;
 
 import static org.junit.Assert.*;
 

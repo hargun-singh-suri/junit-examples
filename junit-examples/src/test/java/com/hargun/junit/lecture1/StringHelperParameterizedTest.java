@@ -15,6 +15,8 @@ import org.junit.runner.RunWith;
 import org.junit.runners.Parameterized;
 import org.junit.runners.Parameterized.Parameters;
 
+import com.hargun.unittesting.junit.StringHelper;
+
 /**
  * @author hargun.suri
  *

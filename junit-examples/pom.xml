@@ -1,11 +1,11 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.hargun.junit</groupId>
-	<artifactId>junit-examples</artifactId>
+	<groupId>com.hargun.unittesting</groupId>
+	<artifactId>unit-testing-examples</artifactId>
 	<version>1</version>
-	<name>junit-examples</name>
-	<description>junit-examples</description>
+	<name>unit-testing-examples</name>
+	<description>unit-testing-examples</description>
 
 	<dependencies>
 		<dependency>

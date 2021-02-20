@@ -9,6 +9,8 @@ import org.junit.AfterClass;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
+import com.hargun.unittesting.junit.StringHelper;
+
 /**
  * @author hargun.suri
  *

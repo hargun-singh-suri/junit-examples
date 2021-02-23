@@ -1,8 +1,10 @@
-package com.hargun.junit.lecture1;
+package com.hargun.unittesting.junit;
 
 import static org.junit.Assert.*;
 
 import org.junit.Test;
+
+import com.hargun.unittesting.junit.StringHelper;
 
 /**
  * @author hargun.suri

@@ -23,7 +23,7 @@ import com.hargun.unittesting.mockito1.service.TodoService;
 public class TodoBusinessImpl {
 	private TodoService todoService;
 
-	TodoBusinessImpl(TodoService todoService) {
+	public TodoBusinessImpl(TodoService todoService) {
 		this.todoService = todoService;
 	}
 
@@ -36,5 +36,19 @@ public class TodoBusinessImpl {
 			}
 		}
 		return filteredTodos;
+	}
+	 
+	/*
+	 * Anything that is not related to spring we need to delete that from toDo
+	 * list.
+	 * 
+	 */
+	public void deleteTodosNotRelatedToSpring(String user) {
+		List<String> allTodos = todoService.retrieveTodos(user);
+		for (String todo : allTodos) {
+			if (!todo.contains("Spring")) {
+				todoService.deleteTodo(todo);
+			}
+		}
 	}
 }

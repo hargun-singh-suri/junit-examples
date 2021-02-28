@@ -15,4 +15,12 @@ public class TodoServiceStub implements TodoService {
 		return Arrays.asList("Learn Spring MVC", "Learn Spring", "Learn to Dance");
 	}
 
+	/* (non-Javadoc)
+	 * @see com.hargun.unittesting.mockito1.service.TodoService#deleteTodo(java.lang.String)
+	 */
+	public void deleteTodo(String todo) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
